@@ -5,6 +5,20 @@ title: March Madness 2022
 <!doctype html>
 
 <div class="main_content">
-  <h1>Scores:</h1>
+  <h1>Scores</h1>
+
+  <div class="score-wrap">
+    {% for post in site.posts %}
+    {% if post.layout == "post"%}
+    <div class="score-person">
+      <img alt="March Madness Logo" src="{{ site.baseurl }}/images/{{ post.logo }}" />
+      <h3>{{ post.author }}</h3>
+      <h4>
+        Score: {{ post.score }}
+      </h4>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
 
 </div>

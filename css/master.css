@@ -74,7 +74,7 @@ nav ul li a {
 /* ------------------------------------------------------ */
 
 #bracket {
-  margin-top: 60px;
+  margin-top: 20px;
 }
 
 #bracket {
@@ -228,7 +228,7 @@ nav ul li a {
 .champion li, .round li {
   background-color: #fff;
   box-shadow: none;
-  opacity: 0.45;
+  opacity: 0.6;
 }
 
 .current li {
@@ -319,7 +319,7 @@ nav ul li a {
   font-size: 10px;
   letter-spacing: 2px;
   font-family: 'Istok Web', sans-serif;
-  color: #3F915F;
+  color: black;
 }
 
 
