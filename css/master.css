@@ -267,26 +267,13 @@ nav ul li a {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1) !important;
 }
 
+.wrong .score {
+  color: white !important;
+}
+
 .vote-options {
   display: block;
   height: 52px;
-}
-
-.share .container {
-  margin: 0 auto;
-  text-align: center;
-}
-
-.share-icon {
-  font-size: 24px;
-  color: #fff;
-  padding: 25px;
-}
-
-.share-wrap {
-  max-width: 1100px;
-  text-align: center;
-  margin: 60px auto;
 }
 
 .final {
