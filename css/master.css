@@ -52,7 +52,7 @@ nav ul li {
 
 nav ul li a {
   line-height: 40px;
-  color: #005eb8;
+  color: white;
   padding: 5px 20px;
   margin: 5px 10px;
   transition: .5s;
@@ -67,6 +67,8 @@ nav ul li a {
 
 .main_content {
   margin-top: 60px;
+  display: flex;
+  flex-direction: column;
 }
 
 .score-wrap {
@@ -76,6 +78,8 @@ nav ul li a {
 }
 
 .score-person img {
+  display: flex;
+  flex-direction: column;
   border-radius: 25px;
 }
 
