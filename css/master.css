@@ -71,6 +71,7 @@ nav ul li a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .score-wrap {
@@ -83,6 +84,7 @@ nav ul li a {
 .score-person img {
   display: flex;
   flex-direction: column;
+  align-items: center;
   border-radius: 25px;
 }
 
@@ -150,14 +152,6 @@ nav ul li a {
 .winner-pick {
   color: rgba(0, 0, 0, 0.8)
 }
-
-/* .semis-l {
-  margin-bottom: 150px;
-}
-
-.semis-r {
-  margin-top: 180px;
-} */
 
 .round {
   display: block;
