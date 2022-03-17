@@ -11,7 +11,7 @@ title: March Madness 2022
     {% for post in site.posts %}
     {% if post.layout == "post"%}
     <div class="score-person">
-      <img alt="March Madness Logo" src="{{ site.baseurl }}/images/{{ post.logo }}" />
+      <img src="{{ site.baseurl }}/images/{{ post.logo }}" height="50px" width="50px" />
       <h3>{{ post.author }}</h3>
       <h4>
         Score: {{ post.score }}

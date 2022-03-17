@@ -35,8 +35,6 @@ nav {
 }
 
 nav .logo {
-  height: 90%;
-  width: 20%;
   align-content: center;
   font-weight: bold;
 }
@@ -69,6 +67,16 @@ nav ul li a {
 
 .main_content {
   margin-top: 60px;
+}
+
+.score-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.score-person img {
+  border-radius: 25px;
 }
 
 /* ------------------------------------------------------ */
