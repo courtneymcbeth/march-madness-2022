@@ -254,6 +254,17 @@ nav ul li a {
   opacity: 1;
 }
 
+.current {
+  opacity: 1;
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.wrong {
+  background-color: rgba(94, 12, 12, 0.89);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
 .vote-options {
   display: block;
   height: 52px;

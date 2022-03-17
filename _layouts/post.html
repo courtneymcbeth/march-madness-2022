@@ -76,8 +76,8 @@ layout: default
       <div class="round round-two">
         <div class="round-details">Round 2<br /><span class="date">March 18-20</span></div>
         <ul class="matchup">
-          <li class="team team-top">{{ page.teams[0] }}<span class="score">&nbsp;</span></li>
-          <li class="team team-bottom">{{ page.teams[1] }}<span class="score">&nbsp;</span></li>
+          <li class="team team-top {{ page.correct[0] }}">{{ page.teams[0] }}<span class="score">&nbsp;</span></li>
+          <li class="team team-bottom {{ page.correct[1] }}">{{ page.teams[1] }}<span class="score">&nbsp;</span></li>
         </ul>
         <ul class="matchup">
           <li class="team team-top">{{ page.teams[2] }}<span class="score">&nbsp;</span></li>
