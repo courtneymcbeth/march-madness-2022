@@ -43,6 +43,7 @@ nav ul {
   margin: 0;
   padding: 0;
   display: flex;
+  justify-content: space-between;
   /* align-items: baseline; */
 }
 
@@ -69,12 +70,14 @@ nav ul li a {
   margin-top: 60px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .score-wrap {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .score-person img {
