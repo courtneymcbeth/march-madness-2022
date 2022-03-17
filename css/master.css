@@ -26,6 +26,7 @@ nav {
   box-sizing: border-box;
   transition: .5s;
   z-index: 2;
+  background-color: #ff6f1c;
 }
 
 nav .logo {
@@ -38,7 +39,6 @@ nav .logo {
 }
 
 nav ul {
-  float: right;
   margin: 0;
   padding: 0;
   display: flex;
@@ -62,4 +62,8 @@ nav ul li a {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+}
+
+.main_content {
+  margin-top: 5vh;
 }
