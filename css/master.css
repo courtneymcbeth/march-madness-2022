@@ -11,6 +11,11 @@ html {
   /* margin-top: 10px; */
 }
 
+body {
+  background-size: cover;
+  min-height: 100%;
+}
+
 a {
   text-decoration: none;
 }
@@ -32,9 +37,7 @@ nav {
 nav .logo {
   height: 90%;
   width: 20%;
-  float: left;
   align-content: center;
-  justify-content: left;
   font-weight: bold;
 }
 
@@ -65,17 +68,13 @@ nav ul li a {
 }
 
 .main_content {
-  margin-top: 5vh;
+  margin-top: 10vh;
 }
 
 /* ------------------------------------------------------ */
 
-body {
-  font-family: 'Istok Web', sans-serif;
-  background-color: yellow;
-  background-size: cover;
-  min-height: 100%;
-  margin: 0;
+#bracket {
+  margin-top: 10vh;
 }
 
 .hero {
@@ -182,6 +181,14 @@ body {
   color: #a0a6a8;
   font-size: 45px;
   padding: 10px 0;
+}
+
+.semis-l {
+  margin-bottom: 150px;
+}
+
+.semis-r {
+  margin-top: 180px;
 }
 
 .round {
