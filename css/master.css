@@ -9,6 +9,7 @@ html {
   text-transform: uppercase;
   color: #005eb8;
   background: white;
+  text-emphasis: none;
   /* margin-top: 10px; */
 }
 
