@@ -15,7 +15,11 @@ title: March Madness 2022
         <img src="{{ site.baseurl }}/images/{{ post.logo }}" height="80px" width="80px" />
         <h3>{{ post.author }}</h3>
         <h4>
-          Score: {{ post.score }}
+          {% assign sum = 0 %}
+          {% for pt in post.points %}
+          {% assign sum = sum | plus: pt %}
+          {% endfor %}
+          Score: {{ sum }}
         </h4>
     </div>
     </a>
