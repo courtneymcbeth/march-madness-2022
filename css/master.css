@@ -85,10 +85,11 @@ nav ul li a {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  align-items: center;
 }
 
 .info_bar img {
-  border-radius: 25px;
+  border-radius: 20px;
 }
 
 .info_bar h5 {
