@@ -90,9 +90,11 @@ nav ul li a {
 
 .info_bar img {
   border-radius: 20px;
+  margin-right: 20px;
 }
 
 .info_bar h5 {
+  font-size: medium;
   color: white;
 }
 
