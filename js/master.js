@@ -1,6 +1,7 @@
 var links = document.getElementsByClassName("player_link_inside");
 
 const url = window.location.href;
+console.log(url);
 
 for (var link of links) {
   const name = link.innerHTML;
