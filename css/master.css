@@ -25,6 +25,7 @@ a {
 /* Top Navigation Bar */
 nav {
   overflow-x: scroll;
+  overflow-y: hidden;
   position: fixed;
   top: 0;
   left: 0;
