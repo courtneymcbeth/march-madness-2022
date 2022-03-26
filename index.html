@@ -21,6 +21,17 @@ title: March Madness 2022
           {% endfor %}
           Score: {{ sum }}
         </h4>
+        <h4>
+          {% assign finalScore = true %}
+          {% for c in post.correct %}
+          {% if c == '' %}
+          {% assign finalScore = false %}
+          {% endif %}
+          {% endfor %}
+          {% if finalScore %}
+          final
+          {% endif %}
+        </h4>
     </div>
     </a>
     {% endif %}
