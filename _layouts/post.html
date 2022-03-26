@@ -7,7 +7,18 @@ layout: default
   {% for pt in page.points %}
   {% assign sum = sum | plus: pt %}
   {% endfor %}
-  <h5>{{ page.author }} - Score: {{ sum }}</h5>
+  {% assign finalScore = true %}
+  {% for c in page.correct %}
+  {% if c == '' %}
+  {% assign finalScore = false %}
+  {% endif %}
+  {% endfor %}
+  <h5>
+    {{ page.author }} - Score: {{ sum }}
+    {% if finalScore %}
+    - final
+    {% endif %}
+  </h5>
 </div>
 
 
